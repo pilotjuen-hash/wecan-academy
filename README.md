@@ -1,16 +1,66 @@
-# React + Vite
+# wecan academy CommunityHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack community platform built with React, Express, and MongoDB.
 
-Currently, two official plugins are available:
+## Live Demo
+- Frontend: https://community-hub.vercel.app
+- API: https://community-hub-api.onrender.com/api
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- User registration and authentication
+- Create, edit, delete posts
+- Like and comment on posts
+- Responsive design
 
-## React Compiler
+## Tech Stack
+- **Frontend:** React, Vite, React Router
+- **Backend:** Node.js, Express
+- **Database:** MongoDB, Mongoose
+- **Authentication:** JWT
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js 18+
+- MongoDB Atlas account
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/pilotjuen-hash/wecan-academy.git
+   cd wecan-academy
+Install backend dependencies
+
+cd backend
+npm install
+Install frontend dependencies
+
+cd ../frontend
+npm install
+Set up environment variables
+
+# backend/.env
+cp .env.example .env
+# Edit with your values
+Run development servers
+
+# Terminal 1 - Backend
+cd backend && npm run dev
+
+# Terminal 2 - Frontend
+cd frontend && npm run dev
+API Endpoints
+Auth
+POST /api/auth/register - Register user
+POST /api/auth/login - Login user
+GET /api/auth/me - Get current user
+Posts
+GET /api/posts - Get all posts
+GET /api/posts/:id - Get single post
+POST /api/posts - Create post (auth required)
+PUT /api/posts/:id - Update post (auth required)
+DELETE /api/posts/:id - Delete post (auth required)
+Author
+Your Name - IYF Weekend Academy Season 11
+
