@@ -1,4 +1,4 @@
-// import WelcomeSection from "./WelcomeLogin";
+import WelcomeSection from "./WelcomeLogin";
 import LoginForm from "./LoginForm";
 
 
@@ -8,7 +8,7 @@ import "./login.css";
 function LoginPage() {
   return (
     <main className="login-page">
-      {/* <WelcomeLogin/> */}
+       <WelcomeLogin/> 
       <LoginForm />
     </main>
   );
