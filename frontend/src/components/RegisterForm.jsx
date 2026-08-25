@@ -1,19 +1,18 @@
-import "./Register.css";
-
+import { Link } from "react-router-dom";
 function RegisterForm(){
     return ( 
         
   <>
   {/* RIGHT SIDE */}
-  <section className="form-section">
-    <div className="form-container">
-      <div className="form-logo">WCA</div>
+  <section className="Register-form-section">
+    <div className="Register-form-container">
+      <div className="Register-form-logo">WCA</div>
       <h2>WeCan Academy</h2>
       <h1>Create an account</h1>
-      <p className="subtitle">Enter your information to get started</p>
+      <p className="Register-subtitle">Enter your information to get started</p>
       <form>
         {/* Full Name */}
-        <div className="form-group">
+        <div className="Register-form-group">
           <label htmlFor="fullname">
             Full Name <span>*</span>
           </label>
@@ -26,7 +25,7 @@ function RegisterForm(){
           />
         </div>
         {/* Email */}
-        <div className="form-group">
+        <div className="Register-form-group">
           <label htmlFor="email">Email</label>
           <input
             type="email"
@@ -36,13 +35,13 @@ function RegisterForm(){
           />
         </div>
         {/* Phone */}
-        <div className="form-group">
+        <div className="Register-form-group">
           <label htmlFor="phone">Phone Number</label>
           <input type="tel" id="phone" name="phone" placeholder="+254..." />
           <small>Provide either email or phone number</small>
         </div>
         {/* Password */}
-        <div className="form-group">
+        <div className="Register-form-group">
           <label htmlFor="password">
             Password <span>*</span>
           </label>
@@ -55,7 +54,7 @@ function RegisterForm(){
           />
         </div>
         {/* Confirm Password */}
-        <div className="form-group">
+        <div className="Register-form-group">
           <label htmlFor="confirm-password">
             Confirm Password <span>*</span>
           </label>
@@ -68,7 +67,7 @@ function RegisterForm(){
           />
         </div>
         {/* Terms */}
-        <div className="terms">
+        <div className="Register-terms">
           <input type="checkbox" id="terms" required="" />
           <label htmlFor="terms">
             I agree to the
@@ -79,12 +78,15 @@ function RegisterForm(){
         <button type="submit">Create account</button>
       </form>
       {/* Login */}
-      <p className="login-text">
-        Already have an account?
-        <a href="login.html">Sign in</a>
-      </p>
+
+
+      <p className="Register-login-text">
+  Already have an account?{" "}
+  <Link to="/login">Sign in</Link>
+</p>
+
       {/* Home */}
-      <a href="#" className="back-home">
+      <a href="#" className="Register-back-home">
         ← Back to Home
       </a>
     </div>
