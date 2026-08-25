@@ -1,0 +1,436 @@
+/* =========================
+   RESET
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #172033;
+}
+
+/* =========================
+   MAIN PAGE
+   MOBILE FIRST
+========================= */
+
+.login-page {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* =========================
+   LEFT / WELCOME SECTION
+   HIDDEN ON MOBILE
+========================= */
+
+.welcome-section {
+  display: none;
+}
+
+/* =========================
+   BRAND
+========================= */
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo,
+.mobile-logo {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #155eef;
+  color: white;
+
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.brand h2 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.brand span {
+  color: #667085;
+  font-size: 14px;
+}
+
+/* =========================
+   WELCOME CONTENT
+========================= */
+
+.welcome-content {
+  max-width: 550px;
+}
+
+.welcome-content h1 {
+  font-size: 48px;
+  line-height: 1.15;
+  margin-bottom: 22px;
+}
+
+.welcome-content h1 span {
+  display: block;
+  color: #155eef;
+}
+
+.welcome-content > p {
+  color: #667085;
+  font-size: 17px;
+  line-height: 1.7;
+  max-width: 480px;
+  margin-bottom: 35px;
+}
+
+/* =========================
+   FEATURES
+========================= */
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.feature span {
+  width: 25px;
+  height: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #dbeafe;
+  color: #155eef;
+
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.feature p {
+  color: #344054;
+  font-size: 15px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  color: #98a2b3;
+  font-size: 13px;
+}
+
+/* =========================
+   RIGHT / FORM SECTION
+========================= */
+
+.form-section {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 25px 20px;
+
+  background: #ffffff;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 430px;
+}
+
+/* =========================
+   MOBILE LOGO
+========================= */
+
+.mobile-logo {
+  display: flex;
+
+  width: 52px;
+  height: 52px;
+
+  margin-bottom: 20px;
+
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* =========================
+   FORM TITLE
+========================= */
+
+.login-container > h1 {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #172033;
+}
+
+/* =========================
+   FORM HEADING
+========================= */
+
+.heading h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.heading p {
+  color: #667085;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* =========================
+   FORM
+========================= */
+
+.form-group {
+  margin-bottom: 22px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+
+  color: #344054;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.password-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password-label a {
+  color: #155eef;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  height: 50px;
+
+  padding: 0 15px;
+
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+
+  outline: none;
+
+  font-size: 15px;
+
+  transition: 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #155eef;
+  box-shadow: 0 0 0 3px rgba(21, 94, 239, 0.1);
+}
+
+input::placeholder {
+  color: #98a2b3;
+}
+
+/* =========================
+   REMEMBER ME
+========================= */
+
+.remember {
+  margin: 5px 0 25px;
+}
+
+.remember label {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+
+  color: #475467;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.remember input {
+  width: 16px;
+  height: 16px;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+button {
+  width: 100%;
+  height: 50px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #155eef;
+  color: white;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #104dcc;
+}
+
+/* =========================
+   SIGN UP
+========================= */
+
+.signup {
+  text-align: center;
+  margin-top: 25px;
+
+  color: #667085;
+  font-size: 14px;
+}
+
+.signup a {
+  color: #155eef;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* =========================
+   BACK HOME
+========================= */
+
+.back-home {
+  display: block;
+
+  margin-top: 30px;
+
+  text-align: center;
+
+  color: #667085;
+  text-decoration: none;
+
+  font-size: 14px;
+}
+
+.back-home:hover,
+.signup a:hover,
+.password-label a:hover {
+  text-decoration: underline;
+}
+
+/* =================================================
+   TABLET
+================================================= */
+
+@media (min-width: 768px) {
+  .form-section {
+    padding: 40px;
+  }
+
+  .login-container {
+    max-width: 430px;
+  }
+
+  .heading h2 {
+    font-size: 30px;
+  }
+}
+
+/* =================================================
+   DESKTOP
+================================================= */
+
+@media (min-width: 1024px) {
+  /* Main two-column layout */
+
+  .login-page {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Show welcome section */
+
+  .welcome-section {
+    background: #f4f8ff;
+
+    padding: 50px 70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* Hide mobile logo */
+
+  .mobile-logo {
+    display: none;
+  }
+
+  /* Desktop form section */
+
+  .form-section {
+    padding: 50px;
+  }
+
+  /* Desktop title */
+
+  .login-container > h1 {
+    font-size: 22px;
+    margin-bottom: 55px;
+  }
+
+  /* Desktop heading */
+
+  .heading h2 {
+    font-size: 32px;
+  }
+}
+
+/* =================================================
+   LARGE DESKTOP
+================================================= */
+
+@media (min-width: 1280px) {
+  .welcome-section {
+    padding: 60px 80px;
+  }
+
+  .form-section {
+    padding: 60px;
+  }
+}
