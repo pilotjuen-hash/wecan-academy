@@ -1,4 +1,4 @@
-import WelcomeSection from "./WelcomeLogin";
+import WelcomeLogin from "./WelcomeLogin";
 import LoginForm from "./LoginForm";
 
 
