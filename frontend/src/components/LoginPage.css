@@ -14,6 +14,9 @@ body {
   color: #172033;
 }
 
+
+
+
 /* =========================
    MAIN PAGE
    MOBILE FIRST
@@ -25,6 +28,7 @@ body {
   grid-template-columns: 1fr;
 }
 
+
 /* =========================
    LEFT / WELCOME SECTION
    HIDDEN ON MOBILE
@@ -33,6 +37,7 @@ body {
 .welcome-section {
   display: none;
 }
+
 
 /* =========================
    BRAND
@@ -71,6 +76,7 @@ body {
   font-size: 14px;
 }
 
+
 /* =========================
    WELCOME CONTENT
 ========================= */
@@ -97,6 +103,7 @@ body {
   max-width: 480px;
   margin-bottom: 35px;
 }
+
 
 /* =========================
    FEATURES
@@ -145,6 +152,7 @@ footer {
   font-size: 13px;
 }
 
+
 /* =========================
    RIGHT / FORM SECTION
 ========================= */
@@ -166,6 +174,7 @@ footer {
   max-width: 430px;
 }
 
+
 /* =========================
    MOBILE LOGO
 ========================= */
@@ -182,6 +191,7 @@ footer {
   overflow: hidden;
 }
 
+
 /* =========================
    FORM TITLE
 ========================= */
@@ -191,6 +201,7 @@ footer {
   margin-bottom: 40px;
   color: #172033;
 }
+
 
 /* =========================
    FORM HEADING
@@ -206,6 +217,7 @@ footer {
   line-height: 1.6;
   margin-bottom: 30px;
 }
+
 
 /* =========================
    FORM
@@ -264,6 +276,7 @@ input::placeholder {
   color: #98a2b3;
 }
 
+
 /* =========================
    REMEMBER ME
 ========================= */
@@ -286,6 +299,7 @@ input::placeholder {
   width: 16px;
   height: 16px;
 }
+
 
 /* =========================
    BUTTON
@@ -313,6 +327,7 @@ button:hover {
   background: #104dcc;
 }
 
+
 /* =========================
    SIGN UP
 ========================= */
@@ -330,6 +345,7 @@ button:hover {
   text-decoration: none;
   font-weight: 600;
 }
+
 
 /* =========================
    BACK HOME
@@ -354,11 +370,13 @@ button:hover {
   text-decoration: underline;
 }
 
+
 /* =================================================
    TABLET
 ================================================= */
 
 @media (min-width: 768px) {
+
   .form-section {
     padding: 40px;
   }
@@ -370,18 +388,22 @@ button:hover {
   .heading h2 {
     font-size: 30px;
   }
+
 }
+
 
 /* =================================================
    DESKTOP
 ================================================= */
 
 @media (min-width: 1024px) {
+
   /* Main two-column layout */
 
   .login-page {
     grid-template-columns: 1fr 1fr;
   }
+
 
   /* Show welcome section */
 
@@ -395,17 +417,20 @@ button:hover {
     justify-content: space-between;
   }
 
+
   /* Hide mobile logo */
 
   .mobile-logo {
     display: none;
   }
 
+
   /* Desktop form section */
 
   .form-section {
     padding: 50px;
   }
+
 
   /* Desktop title */
 
@@ -414,18 +439,22 @@ button:hover {
     margin-bottom: 55px;
   }
 
+
   /* Desktop heading */
 
   .heading h2 {
     font-size: 32px;
   }
+
 }
+
 
 /* =================================================
    LARGE DESKTOP
 ================================================= */
 
 @media (min-width: 1280px) {
+
   .welcome-section {
     padding: 60px 80px;
   }
@@ -433,4 +462,7 @@ button:hover {
   .form-section {
     padding: 60px;
   }
+
 }
+
+

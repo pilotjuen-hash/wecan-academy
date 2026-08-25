@@ -1,8 +1,8 @@
-import WelcomeLogin from "./WelcomeLogin";
+import WelcomeLogin from "./Welcomelogin";
 import LoginForm from "./LoginForm";
 
 
-import "./login.css";
+import "./LoginPage.css";
 
 
 function LoginPage() {

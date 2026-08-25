@@ -18,7 +18,7 @@ body {
    MAIN PAGE
 ============================== */
 
-.register-page {
+.Register-page {
   min-height: 100vh;
   display: flex;
 }
@@ -27,7 +27,7 @@ body {
    LEFT / WELCOME SECTION
 ============================== */
 
-.welcome-section {
+.Register-welcome-section {
   width: 50%;
   min-height: 100vh;
   background: linear-gradient(135deg, #092b49, #0e416d);
@@ -43,13 +43,13 @@ body {
 
 /* Brand */
 
-.brand {
+.Register-brand {
   display: flex;
   align-items: center;
   gap: 15px;
 }
 
-.logo {
+.Register-logo {
   width: 52px;
   height: 52px;
 
@@ -66,11 +66,11 @@ body {
   font-weight: bold;
 }
 
-.brand h2 {
+.Register-brand h2 {
   font-size: 20px;
 }
 
-.brand p {
+.Register-brand p {
   font-size: 13px;
   opacity: 0.75;
   margin-top: 4px;
@@ -78,21 +78,21 @@ body {
 
 /* Welcome content */
 
-.welcome-content {
+.Register-welcome-content {
   max-width: 500px;
 }
 
-.welcome-content h1 {
+.Register-welcome-content h1 {
   font-size: 50px;
   line-height: 1.1;
   margin-bottom: 25px;
 }
 
-.welcome-content h1 span {
+.Register-welcome-content h1 span {
   color: #e9b949;
 }
 
-.welcome-content > p {
+.Register-welcome-content > p {
   font-size: 17px;
   line-height: 1.7;
   color: #dce7f0;
@@ -101,13 +101,13 @@ body {
 
 /* Benefits */
 
-.benefits {
+.Register-benefits {
   display: flex;
   flex-direction: column;
   gap: 18px;
 }
 
-.benefit {
+.Register-benefit {
   display: flex;
   align-items: center;
   gap: 14px;
@@ -115,7 +115,7 @@ body {
   font-size: 15px;
 }
 
-.check {
+.Register-check {
   width: 27px;
   height: 27px;
 
@@ -133,7 +133,7 @@ body {
 
 /* Footer */
 
-.welcome-section footer {
+.Register-welcome-section footer {
   font-size: 13px;
   color: #b9c9d8;
 }
@@ -142,7 +142,7 @@ body {
    RIGHT / FORM SECTION
 ============================== */
 
-.form-section {
+.Register-form-section {
   width: 50%;
   min-height: 100vh;
 
@@ -155,14 +155,14 @@ body {
   background: #ffffff;
 }
 
-.form-container {
+.Register-form-container {
   width: 100%;
   max-width: 480px;
 }
 
 /* Form logo */
 
-.form-logo {
+.Register-form-logo {
   width: 45px;
   height: 45px;
 
@@ -181,7 +181,7 @@ body {
   margin-bottom: 12px;
 }
 
-.form-container > h2 {
+.Register-form-container > h2 {
   font-size: 16px;
   color: #0e416d;
   margin-bottom: 35px;
@@ -189,13 +189,13 @@ body {
 
 /* Heading */
 
-.form-container h1 {
+.Register-form-container h1 {
   font-size: 32px;
   color: #17212b;
   margin-bottom: 8px;
 }
 
-.subtitle {
+.Register-subtitle {
   color: #777;
   font-size: 14px;
   margin-bottom: 28px;
@@ -205,11 +205,11 @@ body {
    FORM
 ============================== */
 
-.form-group {
+.Register-form-group {
   margin-bottom: 18px;
 }
 
-.form-group label {
+.Register-form-group label {
   display: block;
 
   font-size: 14px;
@@ -220,11 +220,11 @@ body {
   margin-bottom: 8px;
 }
 
-.form-group label span {
+.Register-form-group label span {
   color: #d9534f;
 }
 
-.form-group input {
+.Register-form-group input {
   width: 100%;
 
   height: 48px;
@@ -241,17 +241,17 @@ body {
   transition: 0.2s;
 }
 
-.form-group input:focus {
+.Register-form-group input:focus {
   border-color: #0e416d;
 
   box-shadow: 0 0 0 3px rgba(14, 65, 109, 0.08);
 }
 
-.form-group input::placeholder {
+.Register-form-group input::placeholder {
   color: #a5aab0;
 }
 
-.form-group small {
+.Register-form-group small {
   display: block;
 
   margin-top: 7px;
@@ -265,7 +265,7 @@ body {
    TERMS
 ============================== */
 
-.terms {
+.Register-terms {
   display: flex;
   align-items: flex-start;
 
@@ -278,19 +278,19 @@ body {
   color: #555;
 }
 
-.terms input {
+.Register-terms input {
   margin-top: 2px;
 
   accent-color: #0e416d;
 }
 
-.terms a {
+.Register-terms a {
   color: #0e416d;
   text-decoration: none;
   font-weight: 600;
 }
 
-.terms a:hover {
+.Register-terms a:hover {
   text-decoration: underline;
 }
 
@@ -331,7 +331,7 @@ button:active {
    LOGIN
 ============================== */
 
-.login-text {
+.Register-login-text {
   text-align: center;
 
   margin-top: 22px;
@@ -341,7 +341,7 @@ button:active {
   font-size: 14px;
 }
 
-.login-text a {
+.Register-login-text a {
   color: #0e416d;
 
   font-weight: 600;
@@ -349,13 +349,13 @@ button:active {
   text-decoration: none;
 }
 
-.login-text a:hover {
+.Register-login-text a:hover {
   text-decoration: underline;
 }
 
 /* Back home */
 
-.back-home {
+.Register-back-home {
   display: block;
 
   text-align: center;
@@ -369,7 +369,7 @@ button:active {
   text-decoration: none;
 }
 
-.back-home:hover {
+.Register-back-home:hover {
   color: #0e416d;
 }
 
@@ -378,26 +378,26 @@ button:active {
 ============================== */
 
 @media (max-width: 900px) {
-  .register-page {
+  .Register-page {
     flex-direction: column;
   }
 
-  .welcome-section {
+  .Register-welcome-section {
     width: 100%;
     min-height: auto;
 
     padding: 40px 30px;
   }
 
-  .welcome-content {
+  .Register-welcome-content {
     margin: 70px 0;
   }
 
-  .welcome-content h1 {
+  .Register-welcome-content h1 {
     font-size: 40px;
   }
 
-  .form-section {
+  .Register-form-section {
     width: 100%;
     min-height: auto;
 
@@ -406,23 +406,23 @@ button:active {
 }
 
 @media (max-width: 500px) {
-  .welcome-section {
+  .Register-welcome-section {
     padding: 30px 20px;
   }
 
-  .welcome-content h1 {
+  .Register-welcome-content h1 {
     font-size: 34px;
   }
 
-  .welcome-content > p {
+  .Register-welcome-content > p {
     font-size: 15px;
   }
 
-  .form-section {
+  .Register-form-section {
     padding: 40px 20px;
   }
 
-  .form-container h1 {
+  .Register-form-container h1 {
     font-size: 28px;
   }
 }

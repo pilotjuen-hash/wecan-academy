@@ -1,8 +1,7 @@
-import "./login.css";
 
 function Welcomelogin() {
   return (
-    <>
+    
       <>
         {/* Left Section */}
         <section className="welcome-section">
@@ -40,7 +39,7 @@ function Welcomelogin() {
           <footer>© 2026 WECAN-ACADEMY. All rights reserved.</footer>
         </section>
       </>
-    </>
+    
   );
 }
 
