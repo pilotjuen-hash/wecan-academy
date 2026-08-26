@@ -3,7 +3,7 @@
 A full-stack community platform built with React, Express, and MongoDB.
 
 ## Live Demo
-- Frontend: https://community-hub.vercel.app
+- Frontend: https://wecan-academy.vercel.app/
 - API: https://community-hub-api.onrender.com/api
 
 ## Features
