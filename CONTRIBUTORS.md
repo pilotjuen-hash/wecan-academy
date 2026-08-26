@@ -10,13 +10,3 @@
 | edith mburu |[Edith Mburu github](https://github.com/edithmburu92-jpeg) | Developer | Navigation, Routing |
 
 ## Contribution Breakdown
-
-### John Mwangi
-
-
-### Miguel Otieno
-
-
-### John Kimani
-
-### Edith Mburu 
